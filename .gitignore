@@ -1,3 +1,6 @@
+# C / C++
+*.vscode
+
 # Prerequisites
 *.d
 

@@ -2,6 +2,10 @@
 #include <Wire.h> 
 #include "lcd.h" 
 
+/**
+ * @brief 
+ * 
+ */
 void setup() {  
   LCD_init();
 }  

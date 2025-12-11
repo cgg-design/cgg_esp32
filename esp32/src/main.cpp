@@ -1,16 +1,20 @@
-#include <LiquidCrystal_I2C.h>
-#include <Wire.h> 
-#include "LCD/lcd.h" 
+#include "BLUETOOTH/bluetooth.h"
+#include "WEB_SERVER_LED/webserver.h"
 
 /**
- * @brief 
- * 
+ * @brief setup function
+ *
  */
-void setup() {  
-  LCD_init();
-}  
-
-void loop() {
-  // put your main code here, to run repeatedly:
+void setup()
+{
+  web_setup();
 }
 
+/**
+ * @brief  loop function
+ *
+ */
+void loop()
+{
+  web_loop();
+}

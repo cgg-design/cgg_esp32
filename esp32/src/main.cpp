@@ -1,5 +1,6 @@
 #include "BLUETOOTH/bluetooth.h"
-#include "WEB_SERVER_LED/webserver.h"
+// #include "WEB_SERVER_LED/webserver.h"
+#include "OTA/ota_web.h"
 
 /**
  * @brief setup function
@@ -7,7 +8,8 @@
  */
 void setup()
 {
-  web_setup();
+  // web_setup();
+  ota_setup();
 }
 
 /**
@@ -16,5 +18,6 @@ void setup()
  */
 void loop()
 {
-  web_loop();
+  // web_loop();
+  ota_loop();
 }
